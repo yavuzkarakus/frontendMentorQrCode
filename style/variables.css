@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --theme-color-white: hsl(0, 0%, 100%);
+  --theme-color-light-gray: hsl(212, 45%, 89%);
+  --theme-color-grayish-blue: hsl(220, 15%, 55%);
+  --theme-color-dark-blue: hsl(218, 44%, 22%);
+
+  --theme-font-size: 15px;
+  --theme-font-weight-regular: 400;
+  --theme-font-weight-bold: 700;
+}
+
+body > * {
+  font-family: "Outfit", sans-serif;
+}
