@@ -65,7 +65,7 @@ HTML Code Snippets:
 </html>
 ```
 
-CSS Code Snippets.
+CSS Code Snippets:
 
 ```css
 @import url(variables.css);
