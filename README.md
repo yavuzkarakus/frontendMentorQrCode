@@ -88,38 +88,39 @@ body {
 .container {
   background: var(--theme-color-white);
   text-align: center;
-  width: 320px;
+  width: 20rem;
   height: auto;
-  padding: 1em;
-  border-radius: 20px;
+  padding: 1rem;
+  border-radius: 1rem;
   box-shadow: 0px 16px 50px 4px hsla(218, 44%, 22%, 0.1);
 }
 
 header img {
   width: 100%;
   height: 100%;
-  margin-bottom: 1.3em;
-  border-radius: 10px;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 main {
-  padding: 0.5em;
+  padding: 0.8rem;
 }
 
 main h2 {
   color: var(--theme-color-dark-blue);
-  margin-bottom: 0.7em;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
 }
 
 main p {
   font-size: var(--theme-font-size);
   color: var(--theme-color-grayish-blue);
-  margin-bottom: 1em;
+  margin-bottom: 0.6rem;
 }
 
 @media screen and (max-width: 375px) {
   .container {
-    margin: auto 28px;
+    margin: auto 1.2rem;
   }
 }
 ```
